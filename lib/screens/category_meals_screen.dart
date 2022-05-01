@@ -26,13 +26,11 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
   }
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
   }
 
   @override
   void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
     super.didChangeDependencies();
     if(!_loadedInitData) {
       final routeArgs =
